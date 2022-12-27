@@ -24,6 +24,7 @@ class SecondFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View? {
 
+    "SAdasd"
     _binding = FragmentSecondBinding.inflate(inflater, container, false)
     return binding.root
 
