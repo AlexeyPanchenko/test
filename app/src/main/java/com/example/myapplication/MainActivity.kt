@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     setSupportActionBar(binding.toolbar)
     Log.d("Logger", "ASDasdas")
-    Log.d("Logger", "ASDasdas222")
+    Log.d("Logger", "11111")
 
     val navController = findNavController(R.id.nav_host_fragment_content_main)
     appBarConfiguration = AppBarConfiguration(navController.graph)
