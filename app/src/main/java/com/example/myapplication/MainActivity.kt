@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     setSupportActionBar(binding.toolbar)
     Log.d("Logger", "ASDasdas")
+    Log.d("Logger", "ASDasdas222")
 
     val navController = findNavController(R.id.nav_host_fragment_content_main)
     appBarConfiguration = AppBarConfiguration(navController.graph)
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     binding.fab.setOnClickListener { view ->
       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-        .setAction("Action2222", null).show()
+        .setAction("Action", null).show()
     }
   }
 }

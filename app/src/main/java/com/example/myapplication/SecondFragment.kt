@@ -42,3 +42,9 @@ class SecondFragment : Fragment() {
     _binding = null
   }
 }
+
+
+class Model(
+  val text: String,
+  val age: Int
+)
